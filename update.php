@@ -1,5 +1,7 @@
 <?php
+
 $id=$_POST['id'];
+
 $name=$_POST['product_name'];
 $des=$_POST['product_description'];
 $price=$_POST['product_price'];
@@ -22,6 +24,7 @@ set product_name='$name',
 //record updated
 
 if($con->query($query)){
+    header('location:datalist.php');  
     ?>
     <script>
         alert('Data updated')

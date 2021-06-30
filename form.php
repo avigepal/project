@@ -4,9 +4,9 @@
 <form action="insert.php" method="post">
 <div class="container">
 <div>
-    <a href="datalist.php" >View Data Entered</a>
+    <a href="datalist.php" class="btn btn-dark btn-sm">View Data Entered</a>
 </div>
-<table class="table border table-striped" align="center" >
+<table class="table border table-success table-striped" align="center" >
     <thead class="thead-dark">
     <tr>
         <th colspan="2" >PRODUCT DETAIL</th>
@@ -50,7 +50,7 @@
     </tbody>
     <tfoot>
     <tr>
-        <td colspan="2"><button class="btn btn-primary">submit</button></td>
+        <td colspan="2"><button class="btn btn-dark">submit</button></td>
     </tr>
     </tfoot>
 </table>

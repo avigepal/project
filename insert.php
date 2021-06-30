@@ -15,6 +15,7 @@ $query= "insert into products
 values('$name','$des','$price','$selling','$discount','$status','$avl')";//record inserted
 
 if($con->query($query)){
+    header('location:form.php')  
     ?>
     <script>
         alert('Data inserted')
